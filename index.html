@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>lab-1 / Task-1</title>
+        <style>
+            body {
+                font-family: sans-serif;
+            }
+            .images {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                gap: 20px;
+            }
+            .images .img {
+                flex: 1 0 25%;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <h1>Maazen Saad</h1>
+            <h2>day 9</h2>
+            <h3>lab 1</h3>
+            <h4>task-1</h4>
+        </div>
+
+        <table border="1">
+            <tbody>
+                <tr>
+                    <td><a href="#test1">test a one</a></td>
+                </tr>
+            </tbody>
+        </table>
+        <table border="2">
+            <tbody>
+                <tr>
+                    <td><a href="#test2">test a two</a></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="images">
+            <div class="img">
+                <img src="./images/A1.jpg" alt="./images/A1.jpg" />
+            </div>
+
+            <div class="img">
+                <img src="./images/A2.jpg" alt="./images/A2.jpg" />
+            </div>
+
+            <div class="img">
+                <img src="./images/A3.jpg" alt="./images/A3.jpg" />
+            </div>
+
+            <div class="img">
+                <img src="./images/A4.jpg" alt="./images/A4.jpg" />
+            </div>
+
+            <div class="img">
+                <img src="./images/A5.jpg" alt="./images/A5.jpg" />
+            </div>
+        </div>
+
+        <form name="userData">
+            <div>
+                <label for="check1">image</label>
+                <input type="checkbox" value="image" id="check1" />
+            </div>
+            <div>
+                <label for="check2">table</label>
+                <input type="checkbox" value="table" id="check2" />
+            </div>
+            <div>
+                <label for="check3">link</label>
+                <input type="checkbox" value="link" id="check3" />
+            </div>
+
+            <button type="button" onclick="alertCheckedCheckboxes()">
+                Check Values
+            </button>
+        </form>
+
+        <div>
+            <p id="example">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+                assumenda suscipit similique totam facere, inventore excepturi
+                distinctio dolore. Fugiat reiciendis quisquam dignissimos minima
+                mollitia consequuntur, porro modi voluptas atque excepturi.
+            </p>
+        </div>
+
+        <script src="./js/main.js"></script>
+    </body>
+</html>
